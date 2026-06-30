@@ -6,5 +6,25 @@ seletor {
 */
 
 p{
-    
+    font-family: Helvetica;  /* estilo da fonte */
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 35px;  /* espaçamento */
 }
+
+#paragrafo01{    /* # = id */
+    margin-left: 200px;
+}
+
+#paragrafo02{    /* "#" = id */
+    margin-right: 200px;
+}
+
+.paragrafo{   /* "." = class */
+    color: rgb(110, 153, 112);
+}
+
+.especial{   /* "." = class */
+    background-color: rgb(250, 231, 206);
+}
+
